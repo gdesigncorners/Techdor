@@ -1,0 +1,603 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+body, html { 
+    overflow-x:hidden;
+    
+ }
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/* Techdor CSS Start Here */
+
+/* Header Section Start */
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    background: #1d1a56;
+    position: fixed;
+}
+.navbar-light .navbar-toggler {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.header .bg-light{
+    background: transparent!important;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 15px 0px 0px;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    color: #FFF;
+    background: #582fd7;
+    border-radius: 5px;
+}
+
+/* Header Section End */
+
+/* Banner Section Start */
+
+.banner-section{
+    width: 100%;
+    height: 820px;
+    padding: 100px 0px;
+    background: url("../images/banners.png") center top no-repeat;
+    background-size: cover;
+   
+}
+
+.banner-section h1 {
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 500;
+    color: #fff;
+    margin: 105px 0px 0px 0px;
+}
+
+.banner-section h1 span{
+    color: #fbb03b;
+}
+.banner-section p{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #fff;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.banner-section .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 40px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #582fd7;
+    border:0px;
+
+}
+
+
+.banner-section .btn-success:hover, .banner-section .btn-success:focus{
+	background-color: transparent;
+	color: #fff;
+	border-color: #582fd7;
+}
+
+/* Banner Section End */
+
+/* About Us Section Start */
+.about-us{
+    width: 100%;
+    background-color: #f8f7fb;
+    padding: 80px 0px;
+    margin-top:100px;
+}
+
+.about-us img{
+    width: 80%;
+    height: 290px;
+}
+.about-us h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212222;
+    margin: 35px 0px 15px 0px;
+}
+
+.about-us h1:hover{
+    color:#582fd7;
+}
+
+.about-us p{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #030201;
+}
+
+
+.about-us btn-success{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+
+}
+.about-us .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #582fd7;
+    border:0px;
+
+}
+
+
+.about-us .btn-success:hover, .about-us .btn-success:focus{
+	background-color: transparent;
+	color: #582fd7;
+	border-color: #582fd7;
+}
+
+/* About Us Section End */
+
+/* Our Service Section Start */
+.our-service{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+
+.our-service .Os-txt h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212222;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.our-service .Os-txt h1:hover{
+    color:#582fd7;
+}
+
+.img-box{
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+    border: 1px solid #eee;
+    padding: 25px;
+    text-align: center;
+}
+
+.img-box img{
+    width: 65px;
+    height: 65px;
+    margin: 25px 0px 25px 0px;
+}
+
+.img-box h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #212222;
+    margin-bottom: 15px;
+}
+
+.img-box p{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #030201;
+}
+
+.read-more{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 5px 0px 0px 0px;
+
+}
+.read-more .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 50px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #582fd7;
+   	border:0px;
+
+}
+
+
+.read-more .btn-success:hover, .read-more .btn-success:focus{
+	background-color: transparent;
+	color: #582fd7;
+	border-color: #582fd7;
+}
+
+/* Our Service Section End */
+
+
+
+/* Portfolio Section Start */
+
+.portfolio-section{
+    width: 100%;
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+.portfolio-section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212222;
+    margin: 0px 0px 15px 0px;
+
+}
+.portfolio-section h1:hover{
+    color:#582fd7;
+}
+
+.portfolio-section p{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #030201;
+
+}
+
+.portfolio-image{
+    width: 100%;
+}
+
+.portfolio-image img{
+    width: 100%;
+    box-shadow: 1px solid #582fd7;
+    margin: 0px 0px 25px 0px;
+}
+
+.portfolio-image img:hover{
+
+    transform: scale(1.1);
+	transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.read-morei{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.read-morei btn-success{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+
+}
+.read-morei .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #582fd7;
+    border:0px;
+
+}
+
+
+.read-morei .btn-success:hover, .about-us .btn-success:focus{
+	background-color: transparent;
+	color: #582fd7;
+	border-color: #582fd7;
+}
+
+
+/* Portfolio Section End */
+
+
+.working-history{
+    width: 100%;
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+.working-history h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #212222;
+    margin: 40px 0px 15px 0px;
+
+}
+.working-history h1:hover{
+    color:#582fd7;
+}
+
+/* Completed Project Start */
+
+.comp {
+	width: 100%;
+    
+}
+.comp .projects {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	border: 1px solid #eee;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.comp .fa-clock-o{
+	font-size: 65px;
+	color: #582fd7;
+}
+.projects .number {
+	font-size: 60;
+	font-weight: 600;
+	line-height: 70px;
+    color: #2d2d2d;
+   
+}
+.comp .fa-user {
+	font-size: 65px;
+	color: #582fd7;
+}
+.projects .client {
+	font-size: 60;
+	font-weight: 600;
+	line-height: 70px;
+    color: #2d2d2d;
+    
+}
+.comp .fa-check-square {
+	font-size: 65px;
+	color: #582fd7;
+}
+.projects .project {
+	font-size: 60;
+	font-weight: 600;
+	line-height: 70px;
+    color: #2d2d2d;
+}
+.projects h6 {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+/* Completed Project End */
+
+/* Contact Section Start */
+
+.contact-area{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #f8f7fb;
+    margin: 80px 0px 0px 0px;
+}
+.contact-area .title{
+    font-size: 40px;
+    font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0px 0px 15px 0px;
+}
+
+
+.contact-area .title h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212222;
+    font-weight: 600;
+}
+
+.contact-area .title h3:hover{
+    color:#582fd7;
+}
+
+
+.contact-area .forms .cus-form {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #582fd7;
+    padding: 30px 0px 5px 2px;
+    color: #2d2d2d;
+    text-align: center;
+}
+.contact-area .forms ::placeholder{
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+    align-items: right;
+}
+
+
+
+.contact-area .btn-light{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 50px;
+	background-color: #582fd7;
+    color: #fff;
+    text-align: right;
+    border:0px;
+
+}
+
+
+.contact-area .btn-light:hover, .contact-area .btn-light:focus{
+	background-color: transparent;
+	color: #582fd7;
+	border-color: #582fd7;
+}
+
+
+
+
+
+
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-section{
+    width: 100%;
+    padding: 90px 0px 25px 0px;
+    margin: 100px 0px 0px 0px;
+    background: url("../images/footerimg.png") center top no-repeat;
+    background-size: cover;
+   
+}
+
+.footer-section h1{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin: 70px 0px 0px 0px;
+
+
+}
+.footer-section p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fffcf4;
+    margin: 15px 0px 0px 0px;
+}
+
+/* about Shop start */
+
+.about-shop{
+    width: 100%;
+    margin: 0px 0px 90px 0px;
+}
+
+.about-shop ul{
+    padding: 0px;
+
+}
+
+.about-shop ul li{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+
+.about-shop ul li a{
+    color: #fffcf4;
+    font-size: 14px;
+    font-weight: 500;
+    
+
+}
+
+/* about Shop End */
+.terms{
+    width: 100%;
+    margin: 0px 0px 90px 0px;
+}
+
+.terms ul{
+    padding: 0px;
+
+}
+
+.terms ul li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.terms ul li a{
+    color: #fffcf4;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* Contact Section */
+.contact ul{
+	padding: 0px;
+
+}
+
+
+.contact ul li{
+	list-style: none;
+	margin: 15px 0px;
+	font-size: 14px;
+	line-height: 18px;
+    color: #fff;
+}
+
+
+.contact ul li img{
+	margin: 0px 7px 0px 2px;
+    width: 16px;
+    height: 12px;
+    
+}
+
+/* Copyright Section */
+.copyright{
+    width: 100%;
+    text-align: center;
+
+}
+
+.copyright img{
+    marging: 1px 0px 0px 0px;
+
+}
+
+.copyright h6{
+    font-size: 12px;
+    font-weight: 400;
+    color:#fff;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 0px;
+
+}
+/* Footer Section End */
